@@ -6,5 +6,7 @@ Lógica do programa:
 3. Procurar pelo elemento que começa com o texto 'Padrão TISS - Versão'
 4. Acessar o link do primeiro elemento abaixo do header e obter o HTML
 5. No novo HTML, encontrar a tabela
-6. Dentro do primeiro <tr> da tabela, obter a versão a partir do segundo <td>
-7. Obter o link do PDF no terceiro <td> e fazer o download
+6. Iterar a tabela até achar a linha cuja primeira coluna possui o texto 'Componente Organizacional'
+7. Da linha, extrair a versão da segunda coluna
+8. Da linha, extrair o link da terceira coluna
+9. Fazer o download
